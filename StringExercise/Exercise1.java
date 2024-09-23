@@ -10,9 +10,9 @@ package StringExercise;
 
 public class Exercise1 {
     public static void main(String[] args) {
-        System.out.println(deleteSameLettersAndTrim("abc Cpddd Dio OsfWw"));
+        System.out.println(deleteSameLettersAndSpaces("abc Cpddd Dio OsfWw"));
     }
-    public static String deleteSameLettersAndTrim(String input){
+    public static String deleteSameLettersAndSpaces(String input){
         if(input.isEmpty() || input.length() == 1){
             return input;
         }
